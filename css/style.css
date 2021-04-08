@@ -1,0 +1,381 @@
+header{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fffefe;
+    font-family: "Myriad Pro";
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fffefe;
+    font-family: "Myriad Pro";
+    position: relative;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0 0.6rem;
+}
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 48%;
+}
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 48%;
+}
+header h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+header h1{
+    color: #fff;
+    font-family: 'Myriad Pro';
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+header p{
+    color: #999999;
+    font-family: 'Myriad Pro';
+    padding-bottom: 10px;
+}
+.btn-download{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-family: 'Myriad Pro';
+    padding: 0px;
+    padding: 10px 15px;
+}
+.btn-download:hover{
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+.btn-download:focus{
+    box-shadow: none;
+}
+.btn-feature{
+    color: #4b494d;
+    border-color: #4b494d;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    padding: 0px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+.btn-feature:hover {
+    color: #fff;
+    background-color: #4b494d;
+    border-color: #4b494d;
+}
+.btn-feature:focus {
+    box-shadow: none;
+}
+.hg{
+    height: 92vh;
+    align-items: center;
+}
+.phone{
+    position: absolute;
+    bottom: 0;
+    right: 9%;
+}
+.feature-section h6,.beatiful h6,.super h6,.heading h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-family: "Myriad Pro";
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.feature-section h1,.beatiful h1,.super h1{
+    font-family: "Myriad Pro";
+    font-weight: 600;
+}
+.feature-section span,.beatiful .beatiful1,.super span,.heading span{
+    display: inline-block;
+    height: 3px;
+    width: 80px;
+    position: relative;
+}
+.feature-section span::before,.beatiful .beatiful1::before,.super span::before,.heading span::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+    
+}
+.feature-section span::after,.beatiful .beatiful1::after,.super span::after,.heading span::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background-color: #008ed6;
+    transition: .4s all ease-in-out;
+}
+.feature-section:hover span::before,.beatiful:hover .beatiful1::before,.super:hover span::before,.testimonial:hover .heading span::before,.pricing:hover .heading span::before,.contact:hover .heading span::before{
+    width: 48%;
+    
+}
+.feature-section:hover span::after,.beatiful:hover .beatiful1::after,.super:hover span::after,.pricing:hover .heading span::after,.testimonial:hover .heading span::after,.contact:hover .heading span::after{
+    width: 48%;
+}
+.feature h3{
+    color: #1a1a1a;
+    font-family: "Myriad Pro";
+    font-weight: 600;
+}
+.feature p,.beatiful p,.super p{
+    color: #a1a1a1;
+    font-family: "Myriad Pro";
+}
+.feature-icons{  
+    height: 70px;   
+    width: 70px;  
+    border: 1px solid #e1e1e1; 
+    border-radius: 50px;   
+    line-height: 70px; 
+    font-size: 24px;
+    margin: auto;
+    color: #008ed6;
+    margin-bottom: 20px;
+    transition: .4s all ease-in-out;
+}
+.feature-icons:hover{  
+    height: 70px;   
+    width: 70px;  
+    border-radius: 50px;   
+    line-height: 70px; 
+    font-size: 24px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #008ed6; 
+    background-color: #008ed6;
+    color: #fff;
+}
+hr{
+    color: #a1a1a1;
+}
+.beatiful_icons i{
+    color: #008ed6;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+}
+.beatiful_icons span{
+    
+    font-family: "Myriad Pro";
+    font-weight: 500;
+}
+.super{
+    background-color: #f2f2f2;
+}
+.super .hg1{
+    align-items: center;
+    height: 90vh;
+}
+.testimonial{
+    background-image: url(../images/testimonial.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading h1{
+    font-family: "Myriad Pro";
+    font-weight: 600;
+    color: #fff;
+}
+.review p{
+    color: white;
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    font-weight: 100;
+    width: 93%;
+}
+.client{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.client-img{
+    border-radius: 55px;
+    overflow: hidden;
+    width: 55px;
+}
+.client-des{
+    margin-left: 20px;
+}
+.client-des h2{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    
+}
+.client-des h6{
+    color: #fff;
+    font-family: "Myriad Pro";
+}
+.owl-dots .owl-dot span{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #4e484e;
+    border-radius: 50px;
+    margin: 10px;
+}
+.owl-dots{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 17vh;
+}
+
+.owl-dots .active span{
+    height: 15px;
+    width: 15px;
+    
+    background-color: #fff;
+}
+.like{
+    background-color: #15141a;
+
+}
+.liki{
+    display: flex;
+    justify-content: space-between;
+}
+.like-write h1{
+    color: #fff;
+    font-weight: 100;
+    
+}
+.like-write h1 span{
+    color: #fff;
+    font-weight: 600;
+}
+.btn-feature1{
+    color: #edecee;
+    border-color: #edecee;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    padding: 0px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+.btn-feature1:hover {
+    color: #fff;
+    background-color: #4b494d;
+    border-color: #4b494d;
+}
+.btn-feature1:focus {
+    box-shadow: none;
+}   
+.pricing .heading h1{
+    color: #212529;
+}
+.pricing .box table{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    text-align: center;
+    transition: .4s all ease-in-out;
+}
+.pricing .box table td{
+    border: 1px solid #e0e0e0;
+}
+.pricing .box table .bg{
+    border: 1px solid #e0e0e0;
+    transition: .4s all ease-in-out;
+}
+.pricing .box table td h3{
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: .4s all ease-in-out;
+    font-size: 25px;
+}
+.pricing .box table .bg h1{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: .4s all ease-in-out;
+}
+.pricing .box table td p{
+    font-weight: 600;
+    color: #c9c9c9;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 10px;
+}
+.pricing .box table .bg p{
+    font-weight: 600;
+    color: #c9c9c9;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: .4s all ease-in-out;
+}
+
+.pricing .box table:hover h3{
+    color: #008ed6;
+}
+.pricing .box table:hover .bg{
+    border: 1px solid #e0e0e0;
+    background-color: #008ed6;
+}
+.pricing .box table:hover .bg h1{
+    color: #fff;
+}
+.pricing .box table:hover .bg p{
+    color: #fff;
+}
+.btn-order{
+    color: #008ed6;
+    font-weight: 600;
+    border-color: #edecee;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    padding: 10px 15px;
+    margin-top: 25px;
+}
+.btn-order:hover {
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #008ed6;
+}
+.btn-order:focus {
+    box-shadow: none;
+}
+.contact{
+    background-color: #ededed;
+}
+.contact h1{
+    color: #212529;
+}
