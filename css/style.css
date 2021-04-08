@@ -375,7 +375,114 @@ hr{
 }
 .contact{
     background-color: #ededed;
+    position: relative;
+    height: 100vh;
 }
 .contact h1{
     color: #212529;
+    font-family: "Myriad Pro";
+}
+.contact i{
+    color: #008ed6;
+    font-size: 25px;
+}
+.contact p{
+    color: #999999;
+    font-size: 14px;
+    padding-top: 20px;
+    font-family: "Myriad Pro";
+}
+.contact-form{
+    background-color:#15141a;
+    padding: 50px;
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    width: 60%;
+    margin: auto;
+    transform: translate(-50%);
+}
+
+.form1 input{
+    background: transparent;
+    border-radius: 3px;
+    font-family: "Myriad Pro";
+    color: #37363b;
+    border-color: #37363b;
+}
+.form1 input ::placeholder{
+    font-family: "Myriad Pro";
+}
+.form1:hover input{
+    background: transparent;
+    border-radius: 3px;
+}
+.form1 textarea{
+    background: transparent;
+    border-radius: 3px;
+    font-family: "Myriad Pro";
+    color: #37363b;
+    border-color: #37363b;
+}
+
+.form1:hover textarea{
+    background: transparent;
+    border-radius: 3px;
+}
+.form1 input[type="submit"]{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: #fff;
+    margin: auto;
+    font-family: "Myriad Pro";
+}
+form input[type="submit"]:hover{
+    background-color: #0274ad;
+    border: 1px solid #0274ad;
+    margin: auto;
+}
+.btn-sub{
+    color: #edecee;
+    border-color: #edecee;
+    background-color: #008ed6;
+    text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    padding: 0px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+.btn-sub:hover {
+    color: #fff;
+    background-color: #0274ad;
+    border: 1px solid #0274ad;
+}
+.btn-sub:focus {
+    box-shadow: none;
+}
+footer{
+    background-color: #15141a;
+    align-items: center;
+
+}
+.foot-icon{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 40px ;
+    padding-bottom: 15px;
+}
+
+.footer_icon i{
+    color: #444348;
+    font-size: 20px;
+    transition: .4s all ease-in-out;
+}
+.footer_icon i:hover{
+    color: #008ed6;
+}
+footer p{
+    color: #444348;
+    text-align: center;
+    padding-bottom:30px;
 }
