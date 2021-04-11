@@ -5,6 +5,15 @@ header{
     background-size: cover;
     position: relative;
 }
+#particles-js{
+    position: relative;
+
+}
+canvas{
+    position: absolute;
+    top:0;
+    
+}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #fffefe;
     font-family: "Myriad Pro";
@@ -104,6 +113,8 @@ header p{
     position: absolute;
     bottom: 0;
     right: 9%;
+    z-index: 146;
+    
 }
 .feature-section h6,.beatiful h6,.super h6,.heading h6{
     color: #008ed6;
@@ -355,6 +366,13 @@ hr{
 .pricing .box table:hover .bg p{
     color: #fff;
 }
+/* .pricing .box table:hover .btn-order{
+    boxClass:     'wow',      // default
+                      animateClass: 'shakeX', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true  
+} */
 .btn-order{
     color: #008ed6;
     font-weight: 600;
