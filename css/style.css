@@ -20,11 +20,11 @@ canvas{
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #fffefe;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #fffefe;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     padding: 0;
 }
@@ -60,19 +60,19 @@ canvas{
 header h6{
     color: #008ed6;
     text-transform: uppercase;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
 header h1{
     color: #fff;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     padding-bottom: 20px;
 }
 header p{
     color: #999999;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     padding-bottom: 10px;
 }
 .btn-download{
@@ -80,7 +80,7 @@ header p{
     text-transform: uppercase;
     background-color: #0d6efd;
     border-color: #0d6efd;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0px;
     padding: 10px 15px;
 }
@@ -96,7 +96,7 @@ header p{
     color: #4b494d;
     border-color: #4b494d;
     text-transform: uppercase;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0px;
     padding: 10px 15px;
     margin: 10px;
@@ -126,12 +126,12 @@ header p{
 .feature-section h6,.beatiful h6,.super h6,.heading h6{
     color: #008ed6;
     text-transform: uppercase;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
 }
 .feature-section h1,.beatiful h1,.super h1{
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 .feature-section span,.beatiful .beatiful1,.super span,.heading span{
@@ -170,12 +170,12 @@ header p{
 }
 .feature h3{
     color: #1a1a1a;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 .feature p,.beatiful p,.super p{
     color: #a1a1a1;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .feature-icons{  
     height: 70px;   
@@ -212,7 +212,7 @@ hr{
 }
 .beatiful_icons span{
     
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
 }
 .super{
@@ -229,13 +229,13 @@ hr{
     background-size: cover;
 }
 .heading h1{
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     color: #fff;
 }
 .review p{
     color: white;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     font-weight: 100;
     width: 93%;
@@ -262,7 +262,7 @@ hr{
 }
 .client-des h6{
     color: #fff;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .owl-dots .owl-dot span{
     display: inline-block;
@@ -306,7 +306,7 @@ hr{
     color: #edecee;
     border-color: #edecee;
     text-transform: uppercase;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0px;
     padding: 10px 15px;
     margin: 10px;
@@ -405,7 +405,7 @@ hr{
 }
 .contact h1{
     color: #212529;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .contact i{
     color: #008ed6;
@@ -415,7 +415,7 @@ hr{
     color: #999999;
     font-size: 14px;
     padding-top: 20px;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .contact-form{
     background-color:#15141a;
@@ -431,12 +431,12 @@ hr{
 .form1 input{
     background: transparent;
     border-radius: 3px;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     color: #37363b;
     border-color: #37363b;
 }
 .form1 input ::placeholder{
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .form1:hover input{
     background: transparent;
@@ -445,7 +445,7 @@ hr{
 .form1 textarea{
     background: transparent;
     border-radius: 3px;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
     color: #37363b;
     border-color: #37363b;
 }
@@ -459,7 +459,7 @@ hr{
     border: 1px solid #008ed6;
     color: #fff;
     margin: auto;
-    font-family: "Myriad Pro";
+    font-family: 'Source Sans Pro', sans-serif;
 }
 form input[type="submit"]:hover{
     background-color: #0274ad;
@@ -471,7 +471,7 @@ form input[type="submit"]:hover{
     border-color: #edecee;
     background-color: #008ed6;
     text-transform: uppercase;
-    font-family: 'Myriad Pro';
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 0px;
     padding: 10px 15px;
     margin: 10px;
