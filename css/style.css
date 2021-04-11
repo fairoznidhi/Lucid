@@ -491,7 +491,7 @@ footer{
 }
 .foot-icon{
     display: flex;
-    width: 18%;
+    width: 25%;
     justify-content: space-between;
     margin: auto;
     padding-top: 40px ;
@@ -499,7 +499,7 @@ footer{
 .footer_icon{
     display: inline-block;
     height: 60px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     align-items: center;
     transition: .4s all ease-in;
