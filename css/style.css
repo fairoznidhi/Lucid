@@ -495,6 +495,7 @@ footer{
     justify-content: space-between;
     margin: auto;
     padding-top: 40px ;
+    padding-bottom: 10px;
 }
 .footer_icon{
     display: inline-block;
@@ -502,12 +503,14 @@ footer{
     width: 150px;
     text-align: center;
     align-items: center;
+    line-height: 60px;
     transition: .4s all ease-in;
 }
 .footer_icon i{
     color: #444348;
     font-size: 25px;
-    transition: .4s all ease-in;
+    transition: .2s all ease-in;
+    
 }
 .footer_icon:hover i{
     color: #fff;
