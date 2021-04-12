@@ -521,3 +521,9 @@ footer p{
     text-align: center;
     padding-bottom:30px;
 }
+ .navbar-toggler i{
+    color:#fff;
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0rem;
+}

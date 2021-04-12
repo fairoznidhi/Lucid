@@ -1,0 +1,35 @@
+@media (max-width: 575px){
+    .phone{
+        display: none;
+    }
+    .navbar-nav {
+        text-align: left;
+    }
+    .banner-section{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) { 
+    .navbar-nav {
+        text-align: center;
+    }
+    .phone{
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after {
+        width: 0;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before {
+        width: 0;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        padding: 0px 0.6rem;
+        padding: 2px 0;
+    }
+ }
+
+@media (max-width: 991px) { ... }
+
+@media (max-width: 1199px) { ... }
+
