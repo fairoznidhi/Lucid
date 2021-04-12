@@ -120,9 +120,7 @@ header p{
     z-index: 146;
     
 }
-.feature-section{
-    height: 100vh;
-}
+
 .feature-section h6,.beatiful h6,.super h6,.heading h6{
     color: #008ed6;
     text-transform: uppercase;

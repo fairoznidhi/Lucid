@@ -27,6 +27,9 @@
         padding: 0px 0.6rem;
         padding: 2px 0;
     }
+    .feature-section {
+        height: none;
+    }
  }
 
 @media (max-width: 991px) { ... }
