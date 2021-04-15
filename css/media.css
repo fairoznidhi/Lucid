@@ -1,14 +1,36 @@
-@media (max-width: 575px){
-    .phone{
-        display: none;
+@media (max-width: 1199px) { 
+    .liki{
+        display:inline-block;
     }
-    .navbar-nav {
-        text-align: left;
-    }
-    .banner-section{
+    .like-button{
+        margin-top: 30px;
         text-align: center;
     }
-}
+    .contact-form{
+        padding: 0px;
+        padding: 30px;
+        width: 80%;
+        left: 10%;
+        margin: auto;
+        /* transform: translate(-50%); */
+
+    }
+    .contact {
+        height: 123vh;
+    }
+    .foot-icon {
+        width: 40%;
+    }
+ }
+
+
+ @media (max-width: 991px) { 
+    .box1{
+        margin: 10px 0;
+    }
+    
+    
+ }
 
 @media (max-width: 767px) { 
     .navbar-nav {
@@ -30,9 +52,69 @@
     .feature-section {
         height: none;
     }
+    .carousel p{
+        text-align: center;
+    }
+    .client{
+         margin-left: 50%;
+        transform: translateX(-50%); 
+        
+    }
+    .btn-feature1{
+        margin-top: 10px;
+    }
+    .dwn1{
+        margin-top: 10px;
+    }
+    .contact{
+        height:124vh
+    }
+    .contact-form{
+        padding: 0px;
+        padding: 20px;
+        position: absolute;
+        top: 570px;
+        left: 12%;
+        width: 80%;
+        margin: auto;
+        /* transform: translate(-50%); */
+    }
+    
+    
+    
  }
+ @media (max-width: 575px){
+    .phone{
+        display: none;
+    }
+    .navbar-nav {
+        text-align: left;
+    }
+    .banner-section{
+        text-align: center;
+    }
+    .contact{
+        height: 173vh;
+    }
+    .contact-form{
+        padding: 0px;
+        padding: 20px;
+        position: absolute;
+        top: 570px;
+        left: 0;
+        width: 100%;
+        margin: auto;
+        /* transform: translate(-50%); */
+    }
+    .foot-icon {
+        width: 70%;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
 
-@media (max-width: 991px) { ... }
 
-@media (max-width: 1199px) { ... }
+
+
 

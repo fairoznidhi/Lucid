@@ -306,8 +306,11 @@ hr{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     padding: 0px;
-    padding: 10px 15px;
-    margin: 10px;
+    padding: 10px 18px;
+    margin-left: 10px;
+}
+.dwn1{
+    margin-left: 10px;
 }
 .btn-feature1:hover {
     color: #fff;
@@ -371,6 +374,7 @@ hr{
 .pricing .box table:hover .bg p{
     color: #fff;
 }
+
 /* .pricing .box table:hover .btn-order{
     boxClass:     'wow',      // default
                       animateClass: 'shakeX', // default
@@ -399,7 +403,7 @@ hr{
 .contact{
     background-color: #ededed;
     position: relative;
-    height: 100vh;
+    height: 107vh;
 }
 .contact h1{
     color: #212529;
