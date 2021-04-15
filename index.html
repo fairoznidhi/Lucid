@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- header start -->
-    <header id="particles-js">
+    <header id="particles-js" id="hd">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light navi">
                 <div class="container-fluid">
@@ -32,22 +32,22 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#hd">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#feature-section1">Features</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#beatifull">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimoniall">Testimonials</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#pricingg">Pricing</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contactt">Contact</a>
                       </li>
                     </ul>                    
                   </div>
@@ -70,7 +70,7 @@
               </div>
         </div>
     </header>
-    <section class="feature-section py-5 ">
+    <section class="feature-section py-5 " id="feature-section1">
       <div class="container">
         <div class="row pt-5">
           <div class="col-12 text-center py-4">
@@ -80,28 +80,28 @@
           </div>
         </div>
         <div class="row feature text-center py-5">
-          <div class="col-md-3 wow fadeInUp" data-wow-delay="0s" data-wow-offset="180">
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0s" data-wow-offset="180">
             <div class="feature-icons">
               <i class="fas fa-desktop"></i>
             </div>
             <h3>Responsive</h3>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
-          <div class="col-md-3 wow fadeInUp" data-wow-delay=".5s" data-wow-offset="180">
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=".5s" data-wow-offset="180">
             <div class="feature-icons">
               <i class="fas fa-cog"></i>
             </div>
             <h3>Customizable</h3>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
-          <div class="col-md-3 wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="180">
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="180">
             <div class="feature-icons">
               <i class="far fa-thumbs-up"></i>
             </div>
             <h3>Lovely design</h3>
             <p>Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
           </div>
-          <div class="col-md-3 wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="180">
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="180">
             <div class="feature-icons">
               <i class="fas fa-mobile-alt"></i>
             </div>
@@ -112,7 +112,7 @@
       </div>
     </section>
     <hr>
-    <section class="beatiful py-5">
+    <section class="beatiful py-5" id="beatifull">
       <div class="container">
         <div class="row py-5">
           <div class="col-md-6 wow fadeInLeft" data-wow-duration="3s" data-wow-delay="1s" data-wow-offset="180">
@@ -159,9 +159,9 @@
       </div>
     </section>
     <!-- testimonial part start -->
-    <section class="testimonial py-5 review ripple">
+    <section class="testimonial py-4 review ripple" >
       <div class="container">
-        <div class="row py-5 heading">
+        <div class="row py-5 heading" id="testimoniall">
           <div class="col-12 text-center">
             <h6>quality has its price</h6>
             <h1>Testimonials</h1>
@@ -290,7 +290,7 @@
     <!-- like end -->
     <!-- pricing start -->
     <section class="py-5">
-    <div class="pricing ">
+    <div class="pricing " id="pricingg">
       <div class="container">
         <div class="row py-5 heading">
           <div class="col-12 text-center">
@@ -391,9 +391,9 @@
     <!-- pricing end -->
 
     <!-- contact start -->
-    <section class="contact py-5">
+    <section class="contact py-5" >
       <div class="container">
-        <div class="row heading py-5">
+        <div class="row heading py-5 " id="contactt">
           <div class="col-md-12 text-center">
             <h6>stay in touch</h6>
             <h1>Contact Us</h1>
@@ -493,7 +493,6 @@
         // breakpoint from 0 up
         0 : {
             items:1,
-            nav:true,
             dots:false,
         },
         800:{

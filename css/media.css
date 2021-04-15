@@ -21,6 +21,10 @@
     .foot-icon {
         width: 40%;
     }
+    .phone {
+        width: 44%;
+        right: 0%;
+    }
  }
 
 
@@ -28,7 +32,10 @@
     .box1{
         margin: 10px 0;
     }
-    
+    .phone {
+        right: 0%;
+        width: 51%;
+    }
     
  }
 
@@ -67,7 +74,7 @@
         margin-top: 10px;
     }
     .contact{
-        height:124vh
+        height:123vh
     }
     .contact-form{
         padding: 0px;
@@ -78,23 +85,24 @@
         width: 80%;
         margin: auto;
         /* transform: translate(-50%); */
+        
     }
     
     
     
  }
  @media (max-width: 575px){
+    .navbar-nav {
+        text-align: center;
+    }
     .phone{
         display: none;
-    }
-    .navbar-nav {
-        text-align: left;
     }
     .banner-section{
         text-align: center;
     }
     .contact{
-        height: 173vh;
+        height: 172vh;
     }
     .contact-form{
         padding: 0px;
